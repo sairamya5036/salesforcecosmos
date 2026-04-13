@@ -59,6 +59,7 @@ Create two Postman mock endpoints:
 }
 ```
 
+
 ### 2. Named Credentials
 
 Create two named credentials in Salesforce Setup:
