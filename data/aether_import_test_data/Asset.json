@@ -1,0 +1,26 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Asset",
+        "referenceId": "assetRoot"
+      },
+      "Name": "AETHOMEPKG",
+      "AccountId": "@acc1",
+      "ContactId": "@con1",
+      "Product2Id": "@prod1",
+      "Status": "Installed"
+    },
+    {
+      "attributes": {
+        "type": "Asset",
+        "referenceId": "assetChild1"
+      },
+      "Name": "Kitchen Zone Asset",
+      "ParentId": "@{assetRoot.id}",
+      "AccountId": "@acc1",
+      "Product2Id": "@prod2",
+      "Status": "Installed"
+    }
+  ]
+}

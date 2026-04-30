@@ -1,0 +1,27 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "case1"
+      },
+      "AccountId": "@acc1",
+      "ContactId": "@con1",
+      "AssetId": "@assetRoot",
+      "Subject": "RMA Request",
+      "Status": "Open",
+      "Origin": "Phone"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "case2"
+      },
+      "AccountId": "@acc2",
+      "AssetId": "@assetChild1",
+      "Subject": "Refund Issue",
+      "Status": "Open",
+      "Origin": "Email"
+    }
+  ]
+}

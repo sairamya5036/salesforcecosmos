@@ -1,0 +1,22 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "prod1"
+      },
+      "Name": "Aether Home Premier Bundle",
+      "ProductCode": "AE-ROOT-HOME",
+      "IsActive": true
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "prod2"
+      },
+      "Name": "Kitchen Zone",
+      "ProductCode": "AE-ZONE-KIT",
+      "IsActive": true
+    }
+  ]
+}

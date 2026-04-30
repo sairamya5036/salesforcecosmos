@@ -1,0 +1,15 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "ContractLineItem",
+        "referenceId": "cli1"
+      },
+      "ServiceContractId": "@sc1",
+      "AssetId": "@assetRoot",
+      "PricebookEntryId": "@pbe1",
+      "UnitPrice": 2499,
+      "Quantity": 1
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "acc1"
+      },
+      "Name": "DownTown Office CoWork Inc."
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "acc2"
+      },
+      "Name": "Global Neon Inc"
+    }
+  ]
+}

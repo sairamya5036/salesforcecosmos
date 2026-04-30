@@ -1,0 +1,15 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Entitlement",
+        "referenceId": "ent1"
+      },
+      "Name": "Warranty",
+      "AccountId": "@acc1",
+      "ServiceContractId": "@sc1",
+      "StartDate": "2026-03-18",
+      "EndDate": "2027-03-17"
+    }
+  ]
+}

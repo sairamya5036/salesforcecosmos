@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Closed</fullName>
+        <closed>true</closed>
+        <default>false</default>
+        <label>Closed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed - Refund Approved</fullName>
+        <closed>true</closed>
+        <default>false</default>
+        <label>Closed - Refund Approved</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Credit Processed</fullName>
+        <closed>false</closed>
+        <default>false</default>
+        <label>Credit Processed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Open</fullName>
+        <closed>false</closed>
+        <default>true</default>
+        <label>Open</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Return</fullName>
+        <closed>false</closed>
+        <default>false</default>
+        <label>Pending Return</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RMA Authorized</fullName>
+        <closed>false</closed>
+        <default>false</default>
+        <label>RMA Authorized</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Refund Rejected - Manual Review Required</fullName>
+        <closed>false</closed>
+        <default>false</default>
+        <label>Refund Rejected - Manual Review Required</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Technical Inspection</fullName>
+        <closed>false</closed>
+        <default>false</default>
+        <label>Technical Inspection</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Item Received</fullName>
+        <closed>false</closed>
+        <default>false</default>
+        <label>Item Received</label>
+    </standardValue>
+</StandardValueSet>

@@ -1,0 +1,15 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "ServiceContract",
+        "referenceId": "sc1"
+      },
+      "Name": "Aether RMA Test Service Contract",
+      "AccountId": "@acc1",
+      "Pricebook2Id": "@pb1",
+      "StartDate": "2026-03-18",
+      "EndDate": "2027-03-17"
+    }
+  ]
+}

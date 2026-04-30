@@ -1,0 +1,12 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Pricebook2",
+        "referenceId": "pb1"
+      },
+      "Name": "Aether Pricebook",
+      "IsActive": true
+    }
+  ]
+}

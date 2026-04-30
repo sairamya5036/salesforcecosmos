@@ -1,0 +1,14 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "pbe1"
+      },
+      "Product2Id": "@prod1",
+      "Pricebook2Id": "@pb1",
+      "UnitPrice": 2499,
+      "IsActive": true
+    }
+  ]
+}

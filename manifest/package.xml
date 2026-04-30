@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <!-- Global Value Sets -->
+    <types>
+        <members>Product_Type</members>
+        <name>GlobalValueSet</name>
+    </types>
+
+    <!-- Standard Value Sets -->
+    <types>
+        <members>CaseStatus</members>
+        <name>StandardValueSet</name>
+    </types>
+
+     <!-- Custom Fields -->
+    <types>
+        <members>Case.Refund_Amount__c</members>
+        <members>Case.Refund_Reason__c</members>
+        <members>Case.Status</members>
+        <members>Asset.Asset_Type__c</members>
+        <members>Product2.Type__c</members>
+        <members>ContractLineItem.Product_Name__c</members>
+        <members>ContractLineItem.RootAssetId__c</members>
+        <members>ContractLineItem.ServiceContract__c</members>
+        <members>ContractLineItem.Inspection_Status__c</members>
+        <members>Aether_Support_Product__c.Asset__c</members>
+        <members>Aether_Support_Product__c.Case__c</members>
+        <members>Aether_Support_Product__c.Status__c</members>
+        <members>Aether_Support_Product__c.Type__c</members>
+        <name>CustomField</name>
+    </types>
+
+    <!-- Custom Object -->
+    <types>
+        <members>Aether_Support_Product__c</members>
+        <name>CustomObject</name>
+    </types>
+
+    <!-- Record Types -->
+
+    <types>
+        <members>Case.Aether_RMA</members>
+        <name>RecordType</name>
+    </types>
+
+    <!-- Support Process -->
+    <types>
+        <members>Case.AetherRMA</members>
+        <name>BusinessProcess</name>
+    </types>
+
+    <!-- Path Assistant -->
+    <types>
+        <members>Aether_RMA</members>
+        <name>PathAssistant</name>
+    </types>
+
+    <!-- FlexiPage (Record Page) -->
+    <types>
+        <members>Aether_RMA</members>
+        <name>FlexiPage</name>
+    </types>
+
+    <!-- Queues -->
+    <types>
+        <members>Aether_RMA_Approval_Queue</members>
+        <name>Queue</name>
+    </types>
+
+    <!-- Flows -->
+    <types>
+        <members>Aether_Refund_RMA_Approval</members>
+        <members>Aether_Refund_Process_New</members>
+        <members>Update_Case_Status</members>
+        <name>Flow</name>
+    </types>
+
+    <types>
+        <members>Asset.Asset_Details</members>
+        <name>QuickAction</name>
+    </types>
+    <types>
+    <members>Admin</members>
+       
+        <name>Profile</name>
+    </types>
+    <version>66.0</version>
+</Package>
