@@ -5,9 +5,8 @@
       "default": true
     }
   ],
-  "name": "AetherRMACommandCenter",
+  "name": "aether-federated-demo",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "66.0",
-  "defaultLwcLanguage": "javascript"
+  "sourceApiVersion": "63.0"
 }

@@ -42,10 +42,6 @@ $RECYCLE.BIN/
 # Local environment variables
 .env
 
-# Generated data import runtime files contain target-org record IDs.
-aether_import_phase2_runtime.json
-data/aether_import_runtime/
-
 # Python Salesforce Functions
 **/__pycache__/
 **/.venv/
