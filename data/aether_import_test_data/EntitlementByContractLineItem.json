@@ -1,0 +1,264 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Entitlement",
+        "referenceId": "entCliHomePackage"
+      },
+      "Name": "Warranty - Home Package",
+      "AccountId": "@acc1",
+      "ServiceContractId": "@sc1",
+      "ContractLineItemId": "@cliHomePackage",
+      "AssetId": "@assetRoot",
+      "StartDate": "2026-03-18",
+      "EndDate": "2027-03-17"
+    },
+    {
+      "attributes": {
+        "type": "Entitlement",
+        "referenceId": "entCliKitchenZone"
+      },
+      "Name": "Warranty - Kitchen Zone",
+      "AccountId": "@acc1",
+      "ServiceContractId": "@sc1",
+      "ContractLineItemId": "@cliKitchenZone",
+      "AssetId": "@assetChild1",
+      "StartDate": "2026-03-18",
+      "EndDate": "2027-03-17"
+    },
+    {
+      "attributes": {
+        "type": "Entitlement",
+        "referenceId": "entCliLuminaUnderCabinet"
+      },
+      "Name": "Warranty - Lumina Under Cabinet",
+      "AccountId": "@acc1",
+      "ServiceContractId": "@sc1",
+      "ContractLineItemId": "@cliLuminaUnderCabinet",
+      "AssetId": "@assetLuminaUnderCabinet",
+      "StartDate": "2026-03-18",
+      "EndDate": "2027-03-17"
+    },
+    {
+      "attributes": {
+        "type": "Entitlement",
+        "referenceId": "entCliOfficePackage"
+      },
+      "Name": "Warranty - Office Package",
+      "AccountId": "@acc1",
+      "ServiceContractId": "@sc1",
+      "ContractLineItemId": "@cliOfficePackage",
+      "AssetId": "@assetOfficePackage",
+      "StartDate": "2026-03-18",
+      "EndDate": "2027-03-17"
+    },
+    {
+      "attributes": {
+        "type": "Entitlement",
+        "referenceId": "entCliMeetingRoomZone"
+      },
+      "Name": "Warranty - Meeting Room Zone",
+      "AccountId": "@acc1",
+      "ServiceContractId": "@sc1",
+      "ContractLineItemId": "@cliMeetingRoomZone",
+      "AssetId": "@assetMeetingRoomZone",
+      "StartDate": "2026-03-18",
+      "EndDate": "2027-03-17"
+    },
+    {
+      "attributes": {
+        "type": "Entitlement",
+        "referenceId": "entCliClientLoungeZone"
+      },
+      "Name": "Warranty - Client Lounge Zone",
+      "AccountId": "@acc1",
+      "ServiceContractId": "@sc1",
+      "ContractLineItemId": "@cliClientLoungeZone",
+      "AssetId": "@assetClientLoungeZone",
+      "StartDate": "2026-03-18",
+      "EndDate": "2027-03-17"
+    },
+    {
+      "attributes": {
+        "type": "Entitlement",
+        "referenceId": "entCliFocusPodsZone"
+      },
+      "Name": "Warranty - Focus Pods Zone",
+      "AccountId": "@acc1",
+      "ServiceContractId": "@sc1",
+      "ContractLineItemId": "@cliFocusPodsZone",
+      "AssetId": "@assetFocusPodsZone",
+      "StartDate": "2026-03-18",
+      "EndDate": "2027-03-17"
+    },
+    {
+      "attributes": {
+        "type": "Entitlement",
+        "referenceId": "entCliOmniGridPanel"
+      },
+      "Name": "Warranty - Omni Grid Panel",
+      "AccountId": "@acc1",
+      "ServiceContractId": "@sc1",
+      "ContractLineItemId": "@cliOmniGridPanel",
+      "AssetId": "@assetOmniGridPanel",
+      "StartDate": "2026-03-18",
+      "EndDate": "2027-03-17"
+    },
+    {
+      "attributes": {
+        "type": "Entitlement",
+        "referenceId": "entCliCampusPackage"
+      },
+      "Name": "Warranty - Campus Package",
+      "AccountId": "@acc2",
+      "ServiceContractId": "@sc1",
+      "ContractLineItemId": "@cliCampusPackage",
+      "AssetId": "@assetCampusPackage",
+      "StartDate": "2026-03-18",
+      "EndDate": "2027-03-17"
+    },
+    {
+      "attributes": {
+        "type": "Entitlement",
+        "referenceId": "entCliLectureZone"
+      },
+      "Name": "Warranty - Lecture Zone",
+      "AccountId": "@acc2",
+      "ServiceContractId": "@sc1",
+      "ContractLineItemId": "@cliLectureZone",
+      "AssetId": "@assetLectureZone",
+      "StartDate": "2026-03-18",
+      "EndDate": "2027-03-17"
+    },
+    {
+      "attributes": {
+        "type": "Entitlement",
+        "referenceId": "entCliStudyLabZone"
+      },
+      "Name": "Warranty - Study Lab Zone",
+      "AccountId": "@acc2",
+      "ServiceContractId": "@sc1",
+      "ContractLineItemId": "@cliStudyLabZone",
+      "AssetId": "@assetStudyLabZone",
+      "StartDate": "2026-03-18",
+      "EndDate": "2027-03-17"
+    },
+    {
+      "attributes": {
+        "type": "Entitlement",
+        "referenceId": "entCliSpectrumDeskLamp"
+      },
+      "Name": "Warranty - Spectrum Desk Lamp",
+      "AccountId": "@acc2",
+      "ServiceContractId": "@sc1",
+      "ContractLineItemId": "@cliSpectrumDeskLamp",
+      "AssetId": "@assetSpectrumDeskLamp",
+      "StartDate": "2026-03-18",
+      "EndDate": "2027-03-17"
+    },
+    {
+      "attributes": {
+        "type": "Entitlement",
+        "referenceId": "entCliRetailPackage"
+      },
+      "Name": "Warranty - Retail Package",
+      "AccountId": "@acc2",
+      "ServiceContractId": "@sc1",
+      "ContractLineItemId": "@cliRetailPackage",
+      "AssetId": "@assetRetailPackage",
+      "StartDate": "2026-03-18",
+      "EndDate": "2027-03-17"
+    },
+    {
+      "attributes": {
+        "type": "Entitlement",
+        "referenceId": "entCliShoppingAisleZone"
+      },
+      "Name": "Warranty - Shopping Aisle Zone",
+      "AccountId": "@acc2",
+      "ServiceContractId": "@sc1",
+      "ContractLineItemId": "@cliShoppingAisleZone",
+      "AssetId": "@assetShoppingAisleZone",
+      "StartDate": "2026-03-18",
+      "EndDate": "2027-03-17"
+    },
+    {
+      "attributes": {
+        "type": "Entitlement",
+        "referenceId": "entCliFoodCourtZone"
+      },
+      "Name": "Warranty - Food Court Zone",
+      "AccountId": "@acc2",
+      "ServiceContractId": "@sc1",
+      "ContractLineItemId": "@cliFoodCourtZone",
+      "AssetId": "@assetFoodCourtZone",
+      "StartDate": "2026-03-18",
+      "EndDate": "2027-03-17"
+    },
+    {
+      "attributes": {
+        "type": "Entitlement",
+        "referenceId": "entCliPrismTrackLight"
+      },
+      "Name": "Warranty - Prism Track Light",
+      "AccountId": "@acc2",
+      "ServiceContractId": "@sc1",
+      "ContractLineItemId": "@cliPrismTrackLight",
+      "AssetId": "@assetPrismTrackLight",
+      "StartDate": "2026-03-18",
+      "EndDate": "2027-03-17"
+    },
+    {
+      "attributes": {
+        "type": "Entitlement",
+        "referenceId": "entCliBistroPackage"
+      },
+      "Name": "Warranty - Bistro Package",
+      "AccountId": "@acc2",
+      "ServiceContractId": "@sc1",
+      "ContractLineItemId": "@cliBistroPackage",
+      "AssetId": "@assetBistroPackage",
+      "StartDate": "2026-03-18",
+      "EndDate": "2027-03-17"
+    },
+    {
+      "attributes": {
+        "type": "Entitlement",
+        "referenceId": "entCliDiningFloorZone"
+      },
+      "Name": "Warranty - Dining Floor Zone",
+      "AccountId": "@acc2",
+      "ServiceContractId": "@sc1",
+      "ContractLineItemId": "@cliDiningFloorZone",
+      "AssetId": "@assetDiningFloorZone",
+      "StartDate": "2026-03-18",
+      "EndDate": "2027-03-17"
+    },
+    {
+      "attributes": {
+        "type": "Entitlement",
+        "referenceId": "entCliChefGalleyZone"
+      },
+      "Name": "Warranty - Chef Galley Zone",
+      "AccountId": "@acc2",
+      "ServiceContractId": "@sc1",
+      "ContractLineItemId": "@cliChefGalleyZone",
+      "AssetId": "@assetChefGalleyZone",
+      "StartDate": "2026-03-18",
+      "EndDate": "2027-03-17"
+    },
+    {
+      "attributes": {
+        "type": "Entitlement",
+        "referenceId": "entCliFilamentGlowBulb"
+      },
+      "Name": "Warranty - Filament Glow Bulb",
+      "AccountId": "@acc2",
+      "ServiceContractId": "@sc1",
+      "ContractLineItemId": "@cliFilamentGlowBulb",
+      "AssetId": "@assetFilamentGlowBulb",
+      "StartDate": "2026-03-18",
+      "EndDate": "2027-03-17"
+    }
+  ]
+}

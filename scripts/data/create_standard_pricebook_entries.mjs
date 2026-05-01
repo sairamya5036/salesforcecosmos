@@ -69,6 +69,13 @@ if (!standardPricebook) {
 }
 
 const standardPricebookId = standardPricebook.Id;
+const aetherRmaRecordType = queryOne(
+  "SELECT Id FROM RecordType WHERE SObjectType = 'Case' AND DeveloperName = 'Aether_RMA' LIMIT 1"
+);
+
+if (!aetherRmaRecordType) {
+  throw new Error('Could not find Case record type Aether_RMA. Deploy metadata before importing phase 2 data.');
+}
 
 for (const entry of customEntries) {
   const productRef = String(entry.Product2Id || '').replace(/^@/, '');
@@ -183,6 +190,7 @@ const refIds = new Map([
   ...assetIdByRef,
   ...serviceContractIdByRef,
   ...pricebookIdByRef,
+  ['caseRecordTypeAetherRma', aetherRmaRecordType.Id],
 ]);
 
 const missingCustomPricebookEntries = [];
@@ -235,8 +243,14 @@ if (missingCustomPricebookEntries.length > 0) {
   writeJson('data/aether_import_runtime/PricebookEntry.json', { records: [] });
 }
 
-for (const objectName of ['ContractLineItem', 'Entitlement', 'Case']) {
-  const source = readJson(`data/aether_import_test_data/${objectName}.json`);
+const phase2Sources = [
+  ['ContractLineItem', 'data/aether_import_test_data/ContractLineItem.json'],
+  ['Entitlement', 'data/aether_import_test_data/EntitlementByContractLineItem.json'],
+  ['Case', 'data/aether_import_test_data/Case.json'],
+];
+
+for (const [objectName, sourcePath] of phase2Sources) {
+  const source = readJson(sourcePath);
   const runtime = replaceExistingRefs(clone(source));
   writeJson(`data/aether_import_runtime/${objectName}.json`, runtime);
 }

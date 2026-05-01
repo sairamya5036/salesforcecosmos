@@ -5,10 +5,11 @@
         "type": "Asset",
         "referenceId": "assetRoot"
       },
-      "Name": "AETHOMEPKG",
+      "Name": "Aether Home Premier Bundle",
       "AccountId": "@acc1",
       "ContactId": "@con1",
-      "Product2Id": "@prod1",
+      "Product2Id": "@prodHomePackage",
+      "Asset_Type__c": "Package",
       "Status": "Installed"
     },
     {
@@ -16,10 +17,230 @@
         "type": "Asset",
         "referenceId": "assetChild1"
       },
-      "Name": "Kitchen Zone Asset",
+      "Name": "Kitchen Zone",
       "ParentId": "@{assetRoot.id}",
       "AccountId": "@acc1",
-      "Product2Id": "@prod2",
+      "ContactId": "@con1",
+      "Product2Id": "@prodKitchenZone",
+      "Asset_Type__c": "Zone",
+      "Status": "Installed"
+    },
+    {
+      "attributes": {
+        "type": "Asset",
+        "referenceId": "assetLuminaUnderCabinet"
+      },
+      "Name": "Lumina Under-Cabinet",
+      "ParentId": "@{assetChild1.id}",
+      "AccountId": "@acc1",
+      "ContactId": "@con1",
+      "Product2Id": "@prodLuminaUnderCabinet",
+      "Asset_Type__c": "Component",
+      "Status": "Installed"
+    },
+    {
+      "attributes": {
+        "type": "Asset",
+        "referenceId": "assetOfficePackage"
+      },
+      "Name": "Aether Office Elite Suite",
+      "AccountId": "@acc1",
+      "ContactId": "@con1",
+      "Product2Id": "@prodOfficePackage",
+      "Asset_Type__c": "Package",
+      "Status": "Installed"
+    },
+    {
+      "attributes": {
+        "type": "Asset",
+        "referenceId": "assetMeetingRoomZone"
+      },
+      "Name": "Meeting Room Suite",
+      "ParentId": "@{assetOfficePackage.id}",
+      "AccountId": "@acc1",
+      "ContactId": "@con1",
+      "Product2Id": "@prodMeetingRoomZone",
+      "Asset_Type__c": "Zone",
+      "Status": "Installed"
+    },
+    {
+      "attributes": {
+        "type": "Asset",
+        "referenceId": "assetClientLoungeZone"
+      },
+      "Name": "Client Welcome Lounge",
+      "ParentId": "@{assetOfficePackage.id}",
+      "AccountId": "@acc1",
+      "ContactId": "@con1",
+      "Product2Id": "@prodClientLoungeZone",
+      "Asset_Type__c": "Zone",
+      "Status": "Installed"
+    },
+    {
+      "attributes": {
+        "type": "Asset",
+        "referenceId": "assetFocusPodsZone"
+      },
+      "Name": "Focus Call Pods",
+      "ParentId": "@{assetOfficePackage.id}",
+      "AccountId": "@acc1",
+      "ContactId": "@con1",
+      "Product2Id": "@prodFocusPodsZone",
+      "Asset_Type__c": "Zone",
+      "Status": "Installed"
+    },
+    {
+      "attributes": {
+        "type": "Asset",
+        "referenceId": "assetOmniGridPanel"
+      },
+      "Name": "Omni-Grid LED Panel",
+      "ParentId": "@{assetMeetingRoomZone.id}",
+      "AccountId": "@acc1",
+      "ContactId": "@con1",
+      "Product2Id": "@prodOmniGridPanel",
+      "Asset_Type__c": "Component",
+      "Status": "Installed"
+    },
+    {
+      "attributes": {
+        "type": "Asset",
+        "referenceId": "assetCampusPackage"
+      },
+      "Name": "Aether Campus Glow",
+      "AccountId": "@acc2",
+      "Product2Id": "@prodCampusPackage",
+      "Asset_Type__c": "Package",
+      "Status": "Installed"
+    },
+    {
+      "attributes": {
+        "type": "Asset",
+        "referenceId": "assetLectureZone"
+      },
+      "Name": "Lecture Theatre",
+      "ParentId": "@{assetCampusPackage.id}",
+      "AccountId": "@acc2",
+      "Product2Id": "@prodLectureZone",
+      "Asset_Type__c": "Zone",
+      "Status": "Installed"
+    },
+    {
+      "attributes": {
+        "type": "Asset",
+        "referenceId": "assetStudyLabZone"
+      },
+      "Name": "Study Lab",
+      "ParentId": "@{assetCampusPackage.id}",
+      "AccountId": "@acc2",
+      "Product2Id": "@prodStudyLabZone",
+      "Asset_Type__c": "Zone",
+      "Status": "Installed"
+    },
+    {
+      "attributes": {
+        "type": "Asset",
+        "referenceId": "assetSpectrumDeskLamp"
+      },
+      "Name": "Spectrum Desk Lamp",
+      "ParentId": "@{assetStudyLabZone.id}",
+      "AccountId": "@acc2",
+      "Product2Id": "@prodSpectrumDeskLamp",
+      "Asset_Type__c": "Component",
+      "Status": "Installed"
+    },
+    {
+      "attributes": {
+        "type": "Asset",
+        "referenceId": "assetRetailPackage"
+      },
+      "Name": "Aether Retail Pulse",
+      "AccountId": "@acc2",
+      "Product2Id": "@prodRetailPackage",
+      "Asset_Type__c": "Package",
+      "Status": "Installed"
+    },
+    {
+      "attributes": {
+        "type": "Asset",
+        "referenceId": "assetShoppingAisleZone"
+      },
+      "Name": "Shopping Aisle",
+      "ParentId": "@{assetRetailPackage.id}",
+      "AccountId": "@acc2",
+      "Product2Id": "@prodShoppingAisleZone",
+      "Asset_Type__c": "Zone",
+      "Status": "Installed"
+    },
+    {
+      "attributes": {
+        "type": "Asset",
+        "referenceId": "assetFoodCourtZone"
+      },
+      "Name": "Food Court",
+      "ParentId": "@{assetRetailPackage.id}",
+      "AccountId": "@acc2",
+      "Product2Id": "@prodFoodCourtZone",
+      "Asset_Type__c": "Zone",
+      "Status": "Installed"
+    },
+    {
+      "attributes": {
+        "type": "Asset",
+        "referenceId": "assetPrismTrackLight"
+      },
+      "Name": "Prism Track Light",
+      "ParentId": "@{assetShoppingAisleZone.id}",
+      "AccountId": "@acc2",
+      "Product2Id": "@prodPrismTrackLight",
+      "Asset_Type__c": "Component",
+      "Status": "Installed"
+    },
+    {
+      "attributes": {
+        "type": "Asset",
+        "referenceId": "assetBistroPackage"
+      },
+      "Name": "Aether Bistro Ambiance",
+      "AccountId": "@acc2",
+      "Product2Id": "@prodBistroPackage",
+      "Asset_Type__c": "Package",
+      "Status": "Installed"
+    },
+    {
+      "attributes": {
+        "type": "Asset",
+        "referenceId": "assetDiningFloorZone"
+      },
+      "Name": "Dining Floor",
+      "ParentId": "@{assetBistroPackage.id}",
+      "AccountId": "@acc2",
+      "Product2Id": "@prodDiningFloorZone",
+      "Asset_Type__c": "Zone",
+      "Status": "Installed"
+    },
+    {
+      "attributes": {
+        "type": "Asset",
+        "referenceId": "assetChefGalleyZone"
+      },
+      "Name": "Chef's Galley (Kitchen)",
+      "ParentId": "@{assetBistroPackage.id}",
+      "AccountId": "@acc2",
+      "Product2Id": "@prodChefGalleyZone",
+      "Asset_Type__c": "Zone",
+      "Status": "Installed"
+    },
+    {
+      "attributes": {
+        "type": "Asset",
+        "referenceId": "assetFilamentGlowBulb"
+      },
+      "Name": "Filament Glow Bulb",
+      "ParentId": "@{assetDiningFloorZone.id}",
+      "AccountId": "@acc2",
+      "Product2Id": "@prodFilamentGlowBulb",
+      "Asset_Type__c": "Component",
       "Status": "Installed"
     }
   ]

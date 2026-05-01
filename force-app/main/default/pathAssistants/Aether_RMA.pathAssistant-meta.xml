@@ -4,5 +4,32 @@
     <entityName>Case</entityName>
     <fieldName>Status</fieldName>
     <masterLabel>Aether RMA</masterLabel>
+    <pathAssistantSteps>
+        <picklistValueName>Open</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <picklistValueName>Pending Return</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <picklistValueName>RMA Authorized</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <picklistValueName>Item Received</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <picklistValueName>Technical Inspection</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <picklistValueName>Credit Processed</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <picklistValueName>Closed - Refund Approved</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <picklistValueName>Refund Rejected - Manual Review Required</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <picklistValueName>Closed</picklistValueName>
+    </pathAssistantSteps>
     <recordTypeName>Aether_RMA</recordTypeName>
 </PathAssistant>

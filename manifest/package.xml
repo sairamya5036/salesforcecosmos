@@ -55,9 +55,15 @@
         <name>PathAssistant</name>
     </types>
 
+    <types>
+        <members>PathAssistant</members>
+        <name>Settings</name>
+    </types>
+
     <!-- FlexiPage (Record Page) -->
     <types>
         <members>Aether_RMA</members>
+        <members>Aether_Service_Console_UtilityBar</members>
         <name>FlexiPage</name>
     </types>
 
@@ -83,6 +89,23 @@
     <members>Admin</members>
        
         <name>Profile</name>
+    </types>
+
+    <types>
+        <members>Asset-Asset Layout</members>
+        <members>Case-Aether RMA</members>
+        <members>ContractLineItem-Contract Line Item Layout</members>
+        <name>Layout</name>
+    </types>
+
+    <types>
+        <members>Aether_Service_Console</members>
+        <name>CustomApplication</name>
+    </types>
+
+    <types>
+        <members>Screenshot_20260430_at_60359PM2</members>
+        <name>ContentAsset</name>
     </types>
     <version>66.0</version>
 </Package>

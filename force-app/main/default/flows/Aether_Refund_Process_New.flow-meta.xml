@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Flow xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <actionCalls>
         <name>Copy_1_of_Send_Email_Action_1</name>
         <label>Copy 1 of Send Email Action 1</label>
@@ -444,16 +445,16 @@
     <dynamicChoiceSets>
         <name>RefundReason</name>
         <dataType>Picklist</dataType>
-        <displayField xsi:nil="true"/>
-        <object xsi:nil="true"/>
+        <displayField xsi:nil="true" />
+        <object xsi:nil="true" />
         <picklistField>Origin</picklistField>
         <picklistObject>Case</picklistObject>
     </dynamicChoiceSets>
     <dynamicChoiceSets>
         <name>RRR</name>
         <dataType>Picklist</dataType>
-        <displayField xsi:nil="true"/>
-        <object xsi:nil="true"/>
+        <displayField xsi:nil="true" />
+        <object xsi:nil="true" />
         <picklistField>Refund_Reason__c</picklistField>
         <picklistObject>Case</picklistObject>
     </dynamicChoiceSets>
@@ -462,7 +463,7 @@
         <description>//&quot;RMA_Options For - &quot; + {!recordId.Asset.SerialNumber} + &quot;- &quot; +  TEXT(NOW())</description>
         <name>APSINameFormula</name>
         <dataType>String</dataType>
-        <expression>{!recordId.CaseNumber} + &quot; - REPAIR - &quot; + {!LoopingSelected_Rows.PricebookEntry.Product2.Name} + &quot; - &quot; + {!LoopingSelected_Rows.LineItemNumber} + &quot; - &quot; +  TEXT(NOW())</expression>
+        <expression>{!recordId.CaseNumber} + &quot; - REPAIR - &quot; + {!LoopingSelected_Rows.PricebookEntry.Product2.Name}</expression>
     </formulas>
     <formulas>
         <name>APSINameFormulaNumber</name>
@@ -473,7 +474,7 @@
     <formulas>
         <name>APSINameFormulaReplacement</name>
         <dataType>String</dataType>
-        <expression>{!recordId.CaseNumber} + &quot; - REPLACEMENT-  &quot; + {!Copy_1_of_LoopingSelected_Rows.PricebookEntry.Product2.Name} + &quot; - &quot; + {!Copy_1_of_LoopingSelected_Rows.LineItemNumber} + &quot; - &quot; +  TEXT(NOW())</expression>
+        <expression>{!recordId.CaseNumber} + &quot; - Replacement - &quot; + {!Copy_1_of_LoopingSelected_Rows.PricebookEntry.Product2.Name}</expression>
     </formulas>
     <formulas>
         <name>OpptyName</name>

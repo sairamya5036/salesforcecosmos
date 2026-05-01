@@ -18,7 +18,7 @@
   {
     "sobject": "Entitlement",
     "files": [
-      "data/aether_import_test_data/Entitlement.json"
+      "data/aether_import_test_data/EntitlementByContractLineItem.json"
     ],
     "saveRefs": true,
     "resolveRefs": true

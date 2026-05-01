@@ -4,39 +4,39 @@
     <description>Return process for Aether Tech Products</description>
     <isActive>true</isActive>
     <values>
-        <fullName>Closed</fullName>
-        <default>false</default>
-    </values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
     <values>
-        <fullName>Closed - Refund Approved</fullName>
-        <default>false</default>
-    </values>
+                <fullName>Closed - Refund Approved</fullName>
+                <default>false</default>
+            </values>
     <values>
-        <fullName>Credit Processed</fullName>
-        <default>false</default>
-    </values>
+                <fullName>Credit Processed</fullName>
+                <default>false</default>
+            </values>
     <values>
-        <fullName>Open</fullName>
-        <default>true</default>
-    </values>
+                <fullName>Item Received</fullName>
+                <default>false</default>
+            </values>
     <values>
-        <fullName>Pending Return</fullName>
-        <default>false</default>
-    </values>
+                <fullName>Open</fullName>
+                <default>true</default>
+            </values>
     <values>
-        <fullName>RMA Authorized</fullName>
-        <default>false</default>
-    </values>
+                <fullName>Pending Return</fullName>
+                <default>false</default>
+            </values>
     <values>
-        <fullName>Refund Rejected - Manual Review Required</fullName>
-        <default>false</default>
-    </values>
+                <fullName>RMA Authorized</fullName>
+                <default>false</default>
+            </values>
     <values>
-        <fullName>Technical Inspection</fullName>
-        <default>false</default>
-    </values>
+                <fullName>Refund Rejected - Manual Review Required</fullName>
+                <default>false</default>
+            </values>
     <values>
-        <fullName>Item Received</fullName>
-        <default>false</default>
-    </values>
+                <fullName>Technical Inspection</fullName>
+                <default>false</default>
+            </values>
 </BusinessProcess>

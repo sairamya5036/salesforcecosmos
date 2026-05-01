@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <businessProcesses>
+        <fullName>AetherRMA</fullName>
+        <description>Return process for Aether Tech Products</description>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed - Refund Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Credit Processed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Item Received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Pending Return</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RMA Authorized</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refund Rejected - Manual Review Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technical Inspection</fullName>
+            <default>false</default>
+        </values>
+    </businessProcesses>
+    <fields>
+        <fullName>Refund_Amount__c</fullName>
+        <label>Refund Amount</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Refund_Reason__c</fullName>
+        <label>Refund Reason</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Compliance Risk</fullName>
+                    <default>false</default>
+                    <label>Compliance Risk</label>
+                </value>
+                <value>
+                    <fullName>Latent Manufacturing Defect</fullName>
+                    <default>false</default>
+                    <label>Latent Manufacturing Defect</label>
+                </value>
+                <value>
+                    <fullName>Operational Deadlock</fullName>
+                    <default>false</default>
+                    <label>Operational Deadlock</label>
+                </value>
+                <value>
+                    <fullName>Transit Integrity Breach</fullName>
+                    <default>false</default>
+                    <label>Transit Integrity Breach</label>
+                </value>
+                <value>
+                    <fullName>Pro-Rata Lifecycle Credit</fullName>
+                    <default>false</default>
+                    <label>Pro-Rata Lifecycle Credit</label>
+                </value>
+                <value>
+                    <fullName>Hazard</fullName>
+                    <default>false</default>
+                    <label>Hazard</label>
+                </value>
+                <value>
+                    <fullName>Wear and Tear</fullName>
+                    <default>false</default>
+                    <label>Wear and Tear</label>
+                </value>
+                <value>
+                    <fullName>Critical</fullName>
+                    <default>false</default>
+                    <label>Critical</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <recordTypes>
+        <fullName>Aether_RMA</fullName>
+        <active>true</active>
+        <businessProcess>AetherRMA</businessProcess>
+        <description>To handle returns for Aether Tech</description>
+        <label>Aether RMA</label>
+        <picklistValues>
+            <picklist>Origin</picklist>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason</picklist>
+            <values>
+                <fullName>Breakdown</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Equipment Complexity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Equipment Design</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Feedback</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Installation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Performance</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Refund_Reason__c</picklist>
+            <values>
+                <fullName>Compliance Risk</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Critical</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hazard</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Latent Manufacturing Defect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Operational Deadlock</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pro-Rata Lifecycle Credit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transit Integrity Breach</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wear and Tear</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Electrical</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Electronic</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mechanical</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Structural</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+</CustomObject>
